@@ -1,6 +1,10 @@
-# eBookReader 2.0
+# eBookReader 2.0.1
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.0.1 修正
+
+修正 PDF／圖片滾輪被外層控制項重複處理、頁尾提早翻頁與初始內容區寬度。八頁 PDF 測試確認每頁到達底部後才翻下一頁，頁碼依序 1–8。
 
 ## 2.0 更新
 
