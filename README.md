@@ -1,6 +1,10 @@
-# eBookReader 2.1.0
+# eBookReader 2.1.1
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.1.1 閱讀工具列
+
+將翻頁、縮放、編碼、筆記本與全螢幕工具列移到右側內容區頂部；左側書庫上移至選單下方。版面、全螢幕恢復與 PDF 捲動測試通過。
 
 ## 2.1.0 外觀與主題
 
