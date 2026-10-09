@@ -1,6 +1,10 @@
-# eBookReader 2.3.0
+# eBookReader 2.3.1
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.1 語言與選單顯示
+
+修正 Zoom 的語言切換快取，保持原縮放選擇。下拉選項增加行距，放大地球圖示。首次啟動依 Windows 顯示語言選擇繁體／簡體／英文；其他系統語言預設英文，之後保留手動選擇。選項翻譯、間距、地球尺寸與語言映射測試通過。
 
 ## 2.3.0 介面語言
 
