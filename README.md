@@ -1,6 +1,10 @@
-# eBookReader 2.1.5
+# eBookReader 2.1.6
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.1.6 Word 檔案列表
+
+書庫列出 .docx（可閱讀），以及 .doc／.docm（標示請另存為 .docx）；排除 Word 的 ~$ 暫存鎖定檔。Word 列表與 DOCX 解析回歸測試通過。
 
 ## 2.1.5 間距與分隔
 
