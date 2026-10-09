@@ -1,6 +1,10 @@
-# eBookReader 2.3.3
+# eBookReader 2.3.4
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.4 導覽圖示
+
+地球改成對稱經緯線，書庫改成三本並排書本，時鐘增加外圈、指針與刻度。三者統一較完整的線寬與圓角，隨主題調整前景色。編譯及語言切換回歸測試通過。
 
 ## 2.3.3 選單文字對齊
 
