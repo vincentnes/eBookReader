@@ -1,6 +1,10 @@
-# eBookReader 2.0.5
+# eBookReader 2.0.6
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.0.6 選單
+
+將選單名稱改為「說明」，保留使用說明與關於功能。
 
 ## 2.0.5 圖示
 
