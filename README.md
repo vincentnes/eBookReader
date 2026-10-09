@@ -1,6 +1,10 @@
-# eBookReader 2.3.4
+# eBookReader 2.3.5
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.5 程式圖示比例
+
+增高書本主圖示、減少上下透明留白，改善桌面並排時的視覺大小。更新 EXE 與視窗圖示，保留七種 Windows 常用尺寸。編譯與圖示格式轉換完成。
 
 ## 2.3.4 導覽圖示
 
