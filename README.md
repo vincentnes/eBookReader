@@ -1,6 +1,10 @@
-# eBookReader 2.1.1
+# eBookReader 2.1.2
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.1.2 DOCX 文字閱讀
+
+支援 Word .docx 本文文字，包括段落、表格文字、連結文字與換行；無需安裝 Word。不保留原始排版、圖片、頁首頁尾或註腳；不支援舊 .doc、密碼加密檔。可使用既有分頁、Highlight、筆記與閱讀進度功能。解析與損壞檔案測試通過。
 
 ## 2.1.1 閱讀工具列
 
@@ -47,7 +51,7 @@ Windows 10／11 與 .NET Framework 4.8。PDF 使用 Windows 內建 PDF API。CHM
 ## 支援格式
 
 - PDB：PalmDOC（TEXtREAd）、舊版 iSilo（ToGoToGo）。
-- TXT、MD、HTML、RTF、FB2、EPUB、CHM：以文字閱讀，EPUB 不支援加密章節。
+- DOCX、TXT、MD、HTML、RTF、FB2、EPUB、CHM：以文字閱讀，EPUB 不支援加密章節。
 - PDF、CBZ、JPG、JPEG、PNG、BMP、GIF、TIF、TIFF：以頁面／圖片閱讀。GIF 與 TIFF 顯示第一個影格。
 - 圖片資料夾依檔名自然排序逐頁閱讀。
 
