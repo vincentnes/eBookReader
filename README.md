@@ -1,6 +1,10 @@
-# eBookReader 2.1.6
+# eBookReader 2.1.7
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.1.7 字體與排版
+
+選單與閱讀工具列採 12pt，書庫 11pt、標題 13pt；下拉選單同步字體並加寬，調整行距與留白。保留正文閱讀字級，窄視窗使用工具列展開選單。字級、版面、主題及窄視窗檢查通過。
 
 ## 2.1.6 Word 檔案列表
 
