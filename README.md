@@ -1,6 +1,10 @@
-# eBookReader 2.0.6
+# eBookReader 2.1.0
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.1.0 外觀與主題
+
+參考 OneNote 的清楚側欄與淺色介面：增加書庫／書名標題、階層展開箭頭、較寬行距、群組標題與選取色。檢視 → 主題提供淺色、深色、護眼，記住前次選擇；Ctrl+B 可顯示／隱藏書庫。主題、版面與八頁 PDF 連續捲動測試通過。
 
 ## 2.0.6 選單
 
