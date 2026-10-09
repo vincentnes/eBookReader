@@ -1,6 +1,10 @@
-# eBookReader 2.3.1
+# eBookReader 2.3.2
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.2 選單分類與留白
+
+檔案選單依開啟來源、轉換、進度／筆記與結束分組；檢視區分主題和書庫／全螢幕；說明区分使用說明與關於。加入細分組線，以及下拉選單上下留白。編譯及分類結構檢查完成；本次 UI 測試程序未產生結果，尚未完成實際展開驗證。
 
 ## 2.3.1 語言與選單顯示
 
