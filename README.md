@@ -1,6 +1,10 @@
-# eBookReader 2.1.4
+# eBookReader 2.1.5
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.1.5 間距與分隔
+
+中間分隔線改為與其他分隔一致的細線，保留拖曳調整區。選單右移並增加項目間距與上下留白，選單下方加上細線區隔閱讀區。版面與主題測試通過。
 
 ## 2.1.4 選單與線條
 
