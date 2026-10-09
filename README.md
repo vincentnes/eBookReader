@@ -1,6 +1,10 @@
-# eBookReader 2.3.2
+# eBookReader 2.3.3
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.3 選單文字對齊
+
+選單項目文字與快捷鍵以完整列高度垂直置中，維持左右對齊與現有分組、留白。編譯完成；尚未完成實際選單展開驗證。
 
 ## 2.3.2 選單分類與留白
 
