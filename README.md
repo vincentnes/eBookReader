@@ -1,6 +1,10 @@
-# eBookReader 2.2.0
+# eBookReader 2.2.1
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.2.1 目前文件轉 PDF
+
+閱讀工具列的「轉成 PDF」針對目前開啟的 Word 文件，直接存到原資料夾並自動開啟。已有同名 PDF 時使用 (2)、(3) 等新檔名，避免覆蓋；非 Word 文件時停用按鈕。按鈕與儲存路徑測試通過。實際 Word 匯出仍有下述測試限制。
 
 ## 2.2.0 Word 轉 PDF
 
