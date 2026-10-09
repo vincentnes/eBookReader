@@ -1,6 +1,10 @@
-# eBookReader 2.3.9
+# eBookReader 2.3.10
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.10 文字縮放與編碼選單
+
+文字格式的 Zoom 改為可選 10–36 pt 字級，與＋／－同步並保存。DOCX、EPUB 等自動解析格式的編碼選單顯示「自動（格式指定）」；TXT／PDB 等原始文字可手動選編碼。PDF／圖片保留縮放選項，編碼標示不適用。DOCX 字級保存、TXT 編碼、PDF 縮放與語言切換測試通過。
 
 ## 2.3.9 深色選單狀態
 
