@@ -1,6 +1,10 @@
-# eBookReader 2.3.5
+# eBookReader 2.3.6
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.6 雙色導覽圖示
+
+重新設計地球、書庫與時鐘：使用低飽和雙色形體、書脊／頁邊層次、柔和錶面及球面經緯線，保留一致比例與留白。支援主題明暗配色。淺／深色圖示繪製預覽與語言切換回歸檢查完成。
 
 ## 2.3.5 程式圖示比例
 
