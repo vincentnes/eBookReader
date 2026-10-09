@@ -1,6 +1,10 @@
-# eBookReader 2.0.1
+# eBookReader 2.0.2
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.0.2 修正
+
+修正 PDF／圖片翻頁後圖片本身偏離內容框頂部。先歸零捲動位置再重設圖片座標；八頁連續捲動測試同時驗證捲軸與實際圖片頂端。
 
 ## 2.0.1 修正
 
