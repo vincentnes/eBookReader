@@ -1,6 +1,10 @@
-# eBookReader 2.2.3
+# eBookReader 2.3.0
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.0 介面語言
+
+上方選單右側的小地球可切換繁體中文、简体中文與 English，記住選擇。提供選單、工具列、書庫群組、右鍵選項、說明與常用提示的語言文字。不翻譯文件內容、檔名與筆記；Windows 系統對話框按鈕依作業系統語言顯示。三種語言、英文說明、設定恢復與縮放值保持測試寫出通過結果，但測試程序結束等待曾逾時。簡繁字形轉換使用內建 .NET Framework Microsoft.VisualBasic，不依賴 WSH、VBA 或外部翻譯服務。
 
 ## 2.2.3 最近閱讀檢視
 
