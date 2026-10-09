@@ -1,6 +1,10 @@
-# eBookReader 2.3.6
+# eBookReader 2.3.7
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.7 地球緯度線
+
+拉開上下緯度弧線與赤道的間距，避免小尺寸下黏在一起。圖示預覽繪製確認完成。
 
 ## 2.3.6 雙色導覽圖示
 
