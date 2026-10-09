@@ -1,6 +1,10 @@
-# eBookReader 2.1.3
+# eBookReader 2.1.4
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.1.4 選單與線條
+
+修正最近閱讀選單關閉時提早釋放 ContextMenuStrip 的錯誤。加深區塊分隔線，書庫與時鐘圖示使用清楚的細線條。選單開關、開啟項目及右鍵選單切換測試通過。
 
 ## 2.1.3 書庫與最近閱讀
 
