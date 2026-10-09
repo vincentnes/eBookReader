@@ -1,6 +1,10 @@
-# eBookReader 2.2.2
+# eBookReader 2.2.3
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.2.3 最近閱讀檢視
+
+按左側時鐘會加深背景，並在書庫內只顯示最近閱讀，不再開啟小選單。再按時鐘或書庫圖示恢復 My Favorite → 資料夾 → 最近閱讀。最愛中的資料夾加上小資料夾圖示。檢視切換、選中顏色及恢復操作測試通過。
 
 ## 2.2.2 書庫順序與資料夾恢復
 
