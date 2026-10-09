@@ -1,6 +1,10 @@
-# eBookReader 2.3.7
+# eBookReader 2.3.8
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.8 深色地球對比
+
+深色主題地球改用深藍球面、亮色經緯線與外圈，提高小尺寸對比；淺色主題配色保留。圖示繪製預覽確認完成。
 
 ## 2.3.7 地球緯度線
 
