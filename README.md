@@ -1,6 +1,10 @@
-# eBookReader 2.2.1
+# eBookReader 2.2.2
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.2.2 書庫順序與資料夾恢復
+
+書庫固定依 My Favorite → 資料夾 → 最近閱讀 排列。重開程式顯示並展開上次選擇的資料夾；無法存取時保留位置並提示。開啟資料夾時展開書庫。資料夾選取標題移除貼路徑提示。編譯完成；本機 Application Control 阻擋本次回歸測試程序，未完成執行驗證。
 
 ## 2.2.1 目前文件轉 PDF
 
