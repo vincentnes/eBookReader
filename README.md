@@ -14,7 +14,7 @@ Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincent
 
 改為直接執行的 C#／.NET Framework 程式。啟動時不再解包腳本、不啟動 PowerShell，也不需要執行期間編譯程式碼。
 
-目前未使用可信任的程式碼簽章。此次改寫不保證 Chrome Safe Browsing、SmartScreen 或組織政策解除封鎖；不應僅凭 Defender 掃描結果認定所有警告都是誤報。
+目前未使用可信任的程式碼簽章。此次改寫不保證 Chrome Safe Browsing、SmartScreen 或組織政策解除封鎖；不應僅憑 Defender 掃描結果認定所有警告都是誤報。
 
 ## 系統需求
 
@@ -47,4 +47,29 @@ Windows 10／11 與 .NET Framework 4.8。PDF 使用 Windows 內建 PDF API。CHM
 本 repository 只提供執行檔、說明與 SHA-256 校驗碼；不包含原始碼、測試資料、書籍或個人閱讀紀錄。
 
 2026-10-08：直接針對最終發行組件驗證 PalmDOC／iSilo、PDF 繪製、EPUB、CHM、CBZ、RTF、FB2、TXT、圖片自然排序、閱讀進度、Highlight／筆記、雙擊頁寬／整頁、全螢幕及資料夾選擇器。回歸測試通過。
-本機 Microsoft Defender 對最終 EXE 掃描未發現威脅。尚未驗證 Chrome 下載封鎖是否解除。
+安全狀態（2026-10-08）：使用者已回報改為 C# 2.0 後，另一台電腦的 Chrome 下載封鎖解除；Windows 仍顯示未簽章／未知發行者提示。這是使用者已確認的結果，不代表每個後續版本或每台公司電腦都已驗證。
+開發電腦對 2.0.2 EXE 的 Microsoft Defender 掃描結果為未發現威脅；這只記錄該次本機掃描，不代表使用者電腦的 Defender 結果或企業允許執行。
+
+## 公司電腦相容性
+
+目前依 C# 2.0.2 原始碼檢查；尚未在套用企業政策的電腦全面驗證。
+
+| 元件／政策 | 使用情況與影響 |
+| --- | --- |
+| WSH（wscript.exe／cscript.exe）、VBScript／JScript | 不使用。停用 WSH 不影響本程式。 |
+| PowerShell、cmd、執行期間編譯器 | 發行版不使用。native/Build.ps1 與測試是開發工具，不隨 EXE 發行。 |
+| 未簽章 EXE／AppLocker／WDAC／Smart App Control | 可能直接阻擋啟動；需由 IT 依公司政策核准。Chrome 可下載不代表公司允許執行。 |
+| HTML Help（hh.exe）與子程序限制 | 只有 CHM 解壓時使用；若禁止啟動 hh.exe，未快取的 CHM 無法讀取，其他格式不依賴它。 |
+| Explorer（explorer.exe）與子程序限制 | 只有「打開所在資料夾」使用；被限制時該功能可能無法開啟。 |
+| Shell COM／IFileDialog | 現代資料夾選擇器使用 Windows Shell COM；不是 WSH／ActiveX 網頁腳本。Shell COM 元件受限時可能無法選資料夾，開啟檔案仍可另外嘗試。 |
+| .NET Framework | 需要 Windows 的 .NET Framework 4.x；建議 4.8。無需另外安裝 Python、Node、Java 或 PowerShell。 |
+| Windows PDF／WinRT API | PDF 使用 Windows.Storage、Windows.Data.Pdf；不需要 Edge、WebView2 或 Adobe Reader。元件缺少或受到限制時可能無法讀取 PDF。 |
+| 檔案與 AppData 寫入權限 | 需要讀取書籍，並寫入 %APPDATA%\PdbReader 的設定與 CHM 快取。若寫入被禁止，儲存可能失敗；目前關閉時儲存失敗會提示並取消關閉。 |
+| Controlled Folder Access／DLP／分享資料夾權限 | 可能限制書籍存取、複製摘錄、剪貼簿或 Markdown 匯出；影響取決於公司設定。 |
+| 網路／代理伺服器 | 閱讀器本身沒有下載、更新、遙測或網路請求。書籍位於網路分享時仍需該分享的存取權限。 |
+
+閱讀不需要系統管理員權限。不會修改系統安全設定，也不會執行 HTML／CHM 內的網頁腳本。CHM 解壓會將書籍副本與內容寫入使用者快取，需有足夠磁碟空間。
+
+公司若封鎖應用程式，請交由 IT 檢視 EXE 校驗碼、AppLocker／Code Integrity／端點防護事件；不要以停用公司安全政策作為相容性處理。
+
+參考：[Microsoft 應用程式控制](https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/appcontrol)、[受控資料夾存取](https://learn.microsoft.com/en-us/defender-endpoint/controlled-folders)。
