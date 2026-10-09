@@ -1,6 +1,11 @@
-# eBookReader 2.1.7
+# eBookReader 2.2.0
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.2.0 Word 轉 PDF
+
+檔案 → Word 轉為 PDF 並閱讀，或在書庫對 .doc／.docx／.docm 按右鍵轉換。需要已安裝並啟用的桌面版 Microsoft Word；不引入第三方套件、WSH 或 PowerShell。選擇 PDF 儲存位置後，唯讀開啟文件、停用巨集與開啟時的連結更新，匯出成功後自動以 PDF 閱讀；恢復連結更新設定並關閉此次建立的 Word 實例。
+目前只確認編譯完成；本機 Application Control 阻擋 Word 轉換測試程序，尚未完成實際匯出驗證。Office 自動化政策、啟用／登入提示、受保護或加密文件可能使轉換失敗或等待 Word 提示。轉換期間關閉閱讀器會提示等待完成。
 
 ## 2.1.7 字體與排版
 
@@ -105,6 +110,7 @@ Windows 10／11 與 .NET Framework 4.8。PDF 使用 Windows 內建 PDF API。CHM
 | 元件／政策 | 使用情況與影響 |
 | --- | --- |
 | WSH（wscript.exe／cscript.exe）、VBScript／JScript | 不使用。停用 WSH 不影響本程式。 |
+| 桌面 Word／Office COM 自動化 | 只有 Word 轉 PDF 使用；缺少、未啟用或被公司政策限制時，無法轉換，不影響既有解析器的文字閱讀。 |
 | PowerShell、cmd、執行期間編譯器 | 發行版不使用。native/Build.ps1 與測試是開發工具，不隨 EXE 發行。 |
 | 未簽章 EXE／AppLocker／WDAC／Smart App Control | 可能直接阻擋啟動；需由 IT 依公司政策核准。Chrome 可下載不代表公司允許執行。 |
 | HTML Help（hh.exe）與子程序限制 | 只有 CHM 解壓時使用；若禁止啟動 hh.exe，未快取的 CHM 無法讀取，其他格式不依賴它。 |
