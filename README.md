@@ -1,6 +1,10 @@
-# eBookReader 2.3.8
+# eBookReader 2.3.9
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.3.9 深色選單狀態
+
+修正深色主題選單按下時使用系統淺底而使亮色文字消失的問題。按下／勾選背景使用主題選取色，文字與子選單箭頭保持主題前景色。深色按下與勾選狀態配色回歸檢查通過。
 
 ## 2.3.8 深色地球對比
 
