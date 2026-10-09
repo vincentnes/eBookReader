@@ -1,6 +1,10 @@
-# eBookReader 2.0.2
+# eBookReader 2.0.3
 
 Windows 電子書閱讀器。[下載 eBookReader.exe](https://github.com/vincentnes/eBookReader/raw/refs/heads/main/eBookReader.exe) 後雙擊啟動，無需安裝。
+
+## 2.0.3 圖示
+
+採用灰藍書封、柔和書頁與陶土色書籤的第二版圖示；嵌入 EXE 與視窗。圖示載入、視窗啟動與關閉檢查通過。
 
 ## 2.0.2 修正
 
